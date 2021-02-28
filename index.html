@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Мур-Мяу - приют для кошек</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="root">
+      <div class="logo">
+        <div class="flex-logo">
+          <div class="block">Котик тоже хочет дом</div>
+          <div class="block"><img src="sad-cat.png" /></div>
+          <div class="block">Возьми котика</div>
+        </div>
+      </div>
+      <div class="menu">
+        <a href="index.html">
+          <div class="block">Главная</div>
+        </a>
+        &nbsp&nbsp&nbsp&nbsp
+        <div class="vl"></div>
+        &nbsp&nbsp&nbsp&nbsp
+        <a href="about.html">
+          <div class="block">О нас</div>
+        </a>
+        &nbsp&nbsp&nbsp&nbsp
+        <div class="vl"></div>
+        &nbsp&nbsp&nbsp&nbsp
+        <a href="contacts.html">
+          <div class="block">Наши контакты</div>
+        </a>
+      </div>
+      <div class="gl">
+        <hr />
+      </div>
+      <div class="index">
+        <div class="cats">
+          <div class="title-cats">Эти кошки ждут своих хозяев ^_^</div>
+          <div class="profiles-cats">
+            <a href="#">
+              <div class="cat-card shadow" id="cat1">
+                <p>Барсик</p>
+              </div>
+            </a>
+            <a href="#">
+              <div class="cat-card shadow" id="cat2">
+                <p>Рыжик</p>
+              </div>
+            </a>
+            <a href="#">
+              <div class="cat-card shadow" id="cat3">
+                <p>Муська</p>
+              </div>
+            </a>
+            <a href="#">
+              <div class="cat-card shadow" id="cat4">
+                <p>Черныш</p>
+              </div>
+            </a>
+          </div>
+          <div class="button-all-cat"><a href="#">Еще котики</a></div>
+        </div>
+        <div class="donations">
+          <div class="flex-donations">
+            <div class="donations-card shadow">
+              <div class="donations-title">Пожертвования</div>
+              <form class="donations-form" action="#">
+                <div class="money-buttons">
+                  <div class="btn">
+                    <input id="5000" type="radio" name="radio" value="5000" />
+                    <label for="5000">5000 ₽</label>
+                  </div>
+                  <div class="btn">
+                    <input id="2000" type="radio" name="radio" value="2000" />
+                    <label for="2000">2000 ₽</label>
+                  </div>
+                  <div class="btn">
+                    <input id="500" type="radio" name="radio" value="500" />
+                    <label for="500">500 ₽</label>
+                  </div>
+                </div>
+                <input
+                  type="text"
+                  name="other-money"
+                  id="other-money"
+                  placeholder="Другая сумма"
+                />
+                <button type="submit" name="proceed" class="proceed">
+                  Продолжить
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
